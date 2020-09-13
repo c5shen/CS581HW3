@@ -1,0 +1,19 @@
+
+
+#  Analysing dataset 1
+
+ . This analysis requires at least 243 Mo of memory space.
+
+ . Computing pairwise distances...
+
+ . Warning: 82% of sites contain gaps.
+
+ . Computing tree...
+
+ . Performing SPR...
+
+ . Warning: 
+	Explained variance = -1.410 (<0.98).
+	Check your input data.
+
+ . Time used 0h08m22s
