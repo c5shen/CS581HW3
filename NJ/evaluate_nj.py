@@ -10,7 +10,7 @@ for data in dataset:
     result_file = open('result_{}_nj.txt'.format(data), 'w')
     for method in distance_methods:
             result_file.write(method + '\n')
-            for i in range(1):
+            for i in range(20):
                     truth = '../../{}/{}/R{}/rose.tt'.format(data, data, i)
                     predicted_tree_file = (data + '/' + method + '/R'+ str(i)
                             + '/out_tree.nwk')
