@@ -5,12 +5,11 @@ import pexpect
 
 targets = ['1000M1', '1000M4']
 for target in targets:
-    for i in range(1):
+    for i in range(20):
         inname = '../../'+target+'/'+target+'/R'+str(i)+'/rose.aln.true.phylip'
         init_tree = '../../'+target+'/'+target+'/R'+str(i)+'/random.tree'
 
-        #distance_methods = ['p-distance', 'LogDet', 'JC69']
-        distance_methods = ['LogDet']
+        distance_methods = ['p-distance', 'LogDet', 'JC69']
 
         for method in distance_methods:
             outname = target+'/'+method+'/R'+str(i)
