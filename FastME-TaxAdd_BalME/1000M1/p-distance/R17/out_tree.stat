@@ -1,0 +1,289 @@
+
+ - FastME 2.1.6.2 - 
+
+
+Paper to be cited:
+
+FastME 2.0 - A comprehensive, accurate and fast distance-based phylogeny inference program.
+	Vincent Lefort, Richard Desper and Olivier Gascuel,
+	Molecular Biology and Evolution 32(10), 2798-800, 2015.
+
+-------------------------------------------------------------------------------
+Settings for this run:
+
+  I                                      Input data type  DNA             
+  E                                   evolutionary model  p-distance      
+  G                    Gamma rate variation across sites  no              
+  R                              Remove sites whith gaps  no              
+  O                    Output calculated distance matrix  no              
+
+  D                                   Number of datasets  1               
+  M                         Initial tree building method  TaxAdd_BalME    
+  N                                   NNI postprocessing  NNI_BalME       
+  S                                   SPR postprocessing  yes             
+
+-------------------------------------------------------------------------------
+Dataset 1
+	Two tree searches are performed, with NNIs and SPRs respectively.
+	The resulting tree is the best (shortest) of both.
+
+	81% of sites contain gaps.
+
+	Tree length is 218.56673725	Before NNI:     tree length is 218.56673725
+	NNI      1: new tree length is 218.55955674
+	NNI      2: new tree length is 218.55416213
+	NNI      3: new tree length is 218.54998797
+	NNI      4: new tree length is 218.54593998
+	NNI      5: new tree length is 218.54194473
+	NNI      6: new tree length is 218.53805658
+	NNI      7: new tree length is 218.53441792
+	NNI      8: new tree length is 218.52793477
+	NNI      9: new tree length is 218.52453925
+	NNI     10: new tree length is 218.52019734
+	NNI     11: new tree length is 218.51685478
+	NNI     12: new tree length is 218.51155501
+	NNI     13: new tree length is 218.50839212
+	NNI     14: new tree length is 218.50522858
+	NNI     15: new tree length is 218.50241329
+	NNI     16: new tree length is 218.49974536
+	NNI     17: new tree length is 218.49716165
+	NNI     18: new tree length is 218.49458429
+	NNI     19: new tree length is 218.49210405
+	NNI     20: new tree length is 218.48962625
+	NNI     21: new tree length is 218.48724922
+	NNI     22: new tree length is 218.48497153
+	NNI     23: new tree length is 218.48269795
+	NNI     24: new tree length is 218.48003154
+	NNI     25: new tree length is 218.47780403
+	NNI     26: new tree length is 218.47559412
+	NNI     27: new tree length is 218.47337986
+	NNI     28: new tree length is 218.47122464
+	NNI     29: new tree length is 218.46910454
+	NNI     30: new tree length is 218.46704652
+	NNI     31: new tree length is 218.46500460
+	NNI     32: new tree length is 218.46298703
+	NNI     33: new tree length is 218.46097031
+	NNI     34: new tree length is 218.45898155
+	NNI     35: new tree length is 218.45701530
+	NNI     36: new tree length is 218.45393956
+	NNI     37: new tree length is 218.45004172
+	NNI     38: new tree length is 218.44816845
+	NNI     39: new tree length is 218.44618722
+	NNI     40: new tree length is 218.44429688
+	NNI     41: new tree length is 218.44245817
+	NNI     42: new tree length is 218.44074184
+	NNI     43: new tree length is 218.43903109
+	NNI     44: new tree length is 218.43736235
+	NNI     45: new tree length is 218.43571319
+	NNI     46: new tree length is 218.43407618
+	NNI     47: new tree length is 218.43249327
+	NNI     48: new tree length is 218.43094659
+	NNI     49: new tree length is 218.42940717
+	NNI     50: new tree length is 218.42786836
+	NNI     51: new tree length is 218.42588251
+	NNI     52: new tree length is 218.42432798
+	NNI     53: new tree length is 218.42283648
+	NNI     54: new tree length is 218.42143536
+	NNI     55: new tree length is 218.42008193
+	NNI     56: new tree length is 218.41873814
+	NNI     57: new tree length is 218.41658915
+	NNI     58: new tree length is 218.41529597
+	NNI     59: new tree length is 218.41401808
+	NNI     60: new tree length is 218.41278190
+	NNI     61: new tree length is 218.41155211
+	NNI     62: new tree length is 218.41037543
+	NNI     63: new tree length is 218.40879259
+	NNI     64: new tree length is 218.40755317
+	NNI     65: new tree length is 218.40549761
+	NNI     66: new tree length is 218.40421443
+	NNI     67: new tree length is 218.40252737
+	NNI     68: new tree length is 218.40061685
+	NNI     69: new tree length is 218.39869058
+	NNI     70: new tree length is 218.39762383
+	NNI     71: new tree length is 218.39663520
+	NNI     72: new tree length is 218.39571236
+	NNI     73: new tree length is 218.39481407
+	NNI     74: new tree length is 218.39372762
+	NNI     75: new tree length is 218.39283137
+	NNI     76: new tree length is 218.39135323
+	NNI     77: new tree length is 218.38993780
+	NNI     78: new tree length is 218.38869705
+	NNI     79: new tree length is 218.38749989
+	NNI     80: new tree length is 218.38543665
+	NNI     81: new tree length is 218.38418932
+	NNI     82: new tree length is 218.38288826
+	NNI     83: new tree length is 218.38108368
+	NNI     84: new tree length is 218.37927039
+	NNI     85: new tree length is 218.37822303
+	NNI     86: new tree length is 218.37716917
+	NNI     87: new tree length is 218.37407935
+	NNI     88: new tree length is 218.36850521
+	NNI     89: new tree length is 218.36312837
+	NNI     90: new tree length is 218.36150913
+	NNI     91: new tree length is 218.36017335
+	NNI     92: new tree length is 218.35887941
+	NNI     93: new tree length is 218.35785521
+	NNI     94: new tree length is 218.35642051
+	NNI     95: new tree length is 218.35546111
+	NNI     96: new tree length is 218.35457856
+	NNI     97: new tree length is 218.35377125
+	NNI     98: new tree length is 218.35299939
+	NNI     99: new tree length is 218.35035094
+	NNI    100: new tree length is 218.34660710
+	NNI    101: new tree length is 218.34579388
+	NNI    102: new tree length is 218.34502972
+	NNI    103: new tree length is 218.34383824
+	NNI    104: new tree length is 218.34308295
+	NNI    105: new tree length is 218.34231287
+	NNI    106: new tree length is 218.34158935
+	NNI    107: new tree length is 218.34091259
+	NNI    108: new tree length is 218.33989011
+	NNI    109: new tree length is 218.33797017
+	NNI    110: new tree length is 218.33731527
+	NNI    111: new tree length is 218.33668056
+	NNI    112: new tree length is 218.33574525
+	NNI    113: new tree length is 218.33514172
+	NNI    114: new tree length is 218.33389323
+	NNI    115: new tree length is 218.33310844
+	NNI    116: new tree length is 218.33253934
+	NNI    117: new tree length is 218.33205791
+	NNI    118: new tree length is 218.33160268
+	NNI    119: new tree length is 218.33074943
+	NNI    120: new tree length is 218.32941824
+	NNI    121: new tree length is 218.32835634
+	NNI    122: new tree length is 218.32741616
+	NNI    123: new tree length is 218.32660008
+	NNI    124: new tree length is 218.32592466
+	NNI    125: new tree length is 218.32523882
+	NNI    126: new tree length is 218.32479122
+	NNI    127: new tree length is 218.32438091
+	NNI    128: new tree length is 218.32399974
+	NNI    129: new tree length is 218.32366592
+	NNI    130: new tree length is 218.32333587
+	NNI    131: new tree length is 218.32260685
+	NNI    132: new tree length is 218.32196163
+	NNI    133: new tree length is 218.32165556
+	NNI    134: new tree length is 218.32100652
+	NNI    135: new tree length is 218.32071431
+	NNI    136: new tree length is 218.32045383
+	NNI    137: new tree length is 218.32019532
+	NNI    138: new tree length is 218.31996292
+	NNI    139: new tree length is 218.31937268
+	NNI    140: new tree length is 218.31884101
+	NNI    141: new tree length is 218.31861331
+	NNI    142: new tree length is 218.31840737
+	NNI    143: new tree length is 218.31759901
+	NNI    144: new tree length is 218.31743473
+	NNI    145: new tree length is 218.31716414
+	NNI    146: new tree length is 218.31702185
+	NNI    147: new tree length is 218.31675056
+	NNI    148: new tree length is 218.31527474
+	NNI    149: new tree length is 218.31484764
+	NNI    150: new tree length is 218.31469887
+	NNI    151: new tree length is 218.31457170
+	NNI    152: new tree length is 218.31445069
+	NNI    153: new tree length is 218.31372005
+	NNI    154: new tree length is 218.31361929
+	NNI    155: new tree length is 218.31353530
+	NNI    156: new tree length is 218.31322480
+	NNI    157: new tree length is 218.31314553
+	NNI    158: new tree length is 218.31269560
+	NNI    159: new tree length is 218.31195921
+	NNI    160: new tree length is 218.31190907
+	NNI    161: new tree length is 218.31188971
+	NNI    162: new tree length is 218.31188918
+	Performed 162 NNI(s).
+
+	Before SPR:     tree length is 218.56673725
+	SPR      1: new tree length is 218.53807336
+	SPR      2: new tree length is 218.52608535
+	SPR      3: new tree length is 218.51596556
+	SPR      4: new tree length is 218.50714436
+	SPR      5: new tree length is 218.49867481
+	SPR      6: new tree length is 218.48985755
+	SPR      7: new tree length is 218.48179187
+	SPR      8: new tree length is 218.47414501
+	SPR      9: new tree length is 218.46676662
+	SPR     10: new tree length is 218.45939452
+	SPR     11: new tree length is 218.45204834
+	SPR     12: new tree length is 218.44486635
+	SPR     13: new tree length is 218.43802374
+	SPR     14: new tree length is 218.43185230
+	SPR     15: new tree length is 218.42597459
+	SPR     16: new tree length is 218.42013175
+	SPR     17: new tree length is 218.41489705
+	SPR     18: new tree length is 218.41042693
+	SPR     19: new tree length is 218.40629601
+	SPR     20: new tree length is 218.40230028
+	SPR     21: new tree length is 218.39861164
+	SPR     22: new tree length is 218.39513134
+	SPR     23: new tree length is 218.39169606
+	SPR     24: new tree length is 218.38831745
+	SPR     25: new tree length is 218.38490808
+	SPR     26: new tree length is 218.38186110
+	SPR     27: new tree length is 218.37894898
+	SPR     28: new tree length is 218.37622956
+	SPR     29: new tree length is 218.37352978
+	SPR     30: new tree length is 218.37098751
+	SPR     31: new tree length is 218.36845715
+	SPR     32: new tree length is 218.36601933
+	SPR     33: new tree length is 218.36382514
+	SPR     34: new tree length is 218.36164982
+	SPR     35: new tree length is 218.35949232
+	SPR     36: new tree length is 218.35735143
+	SPR     37: new tree length is 218.35525768
+	SPR     38: new tree length is 218.35310366
+	SPR     39: new tree length is 218.35101022
+	SPR     40: new tree length is 218.34907345
+	SPR     41: new tree length is 218.34736984
+	SPR     42: new tree length is 218.34571164
+	SPR     43: new tree length is 218.34410985
+	SPR     44: new tree length is 218.34263508
+	SPR     45: new tree length is 218.34116066
+	SPR     46: new tree length is 218.33975400
+	SPR     47: new tree length is 218.33833626
+	SPR     48: new tree length is 218.33707269
+	SPR     49: new tree length is 218.33579450
+	SPR     50: new tree length is 218.33420198
+	SPR     51: new tree length is 218.33301071
+	SPR     52: new tree length is 218.33184486
+	SPR     53: new tree length is 218.33033731
+	SPR     54: new tree length is 218.32863604
+	SPR     55: new tree length is 218.32767290
+	SPR     56: new tree length is 218.32675501
+	SPR     57: new tree length is 218.32586892
+	SPR     58: new tree length is 218.32503266
+	SPR     59: new tree length is 218.32389751
+	SPR     60: new tree length is 218.32314601
+	SPR     61: new tree length is 218.32246772
+	SPR     62: new tree length is 218.32183954
+	SPR     63: new tree length is 218.32122983
+	SPR     64: new tree length is 218.32050484
+	SPR     65: new tree length is 218.31994354
+	SPR     66: new tree length is 218.31940557
+	SPR     67: new tree length is 218.31901153
+	SPR     68: new tree length is 218.31707213
+	SPR     69: new tree length is 218.31667958
+	SPR     70: new tree length is 218.31632429
+	SPR     71: new tree length is 218.31598800
+	SPR     72: new tree length is 218.31566901
+	SPR     73: new tree length is 218.31509774
+	SPR     74: new tree length is 218.31428941
+	SPR     75: new tree length is 218.31342323
+	SPR     76: new tree length is 218.31311333
+	SPR     77: new tree length is 218.31281784
+	SPR     78: new tree length is 218.31252601
+	SPR     79: new tree length is 218.31226579
+	SPR     80: new tree length is 218.31154467
+	SPR     81: new tree length is 218.31128655
+	SPR     82: new tree length is 218.31114447
+	SPR     83: new tree length is 218.31098319
+	SPR     84: new tree length is 218.31071243
+	SPR     85: new tree length is 218.31058533
+	SPR     86: new tree length is 218.31046398
+	SPR     87: new tree length is 218.30973337
+	SPR     88: new tree length is 218.30968118
+	SPR     89: new tree length is 218.30965516
+	Performed 89 SPR(s).
+
+	Explained variance : 0.58599056
