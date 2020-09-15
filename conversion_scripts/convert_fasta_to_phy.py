@@ -46,3 +46,4 @@ for i in range(len(data)):
     cur_seq += data[i]
 #print(taxa)
 writePhylip(taxa, output)
+print("Converted {} records".format(len(taxa)))
