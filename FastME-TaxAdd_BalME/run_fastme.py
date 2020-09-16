@@ -3,7 +3,7 @@ import subprocess
 import os, shutil
 import pexpect
 
-targets = ['1000M1']
+targets = ['1000M1','1000M4']
 for target in targets:
     for i in range(20):
         inname = target+'/'+target+'/data/R'+str(i)+'/rose.aln.true.phylip'
