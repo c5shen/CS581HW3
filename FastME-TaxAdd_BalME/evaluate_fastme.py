@@ -36,6 +36,7 @@ for data in dataset:
                         print('R'+str(i),treecompare.false_positives_and_negatives(tree1, tree2))
                         effective_samples = effective_samples+1
                         agg_false_positives = agg_false_negatives+treecompare.false_positives_and_negatives(tree1, tree2)[0]
+                        print(treecompare.false_positives_and_negatives(tree1, tree2)[0],treecompare.false_positives_and_negatives(tree1, tree2)[1])
                         agg_false_negatives = agg_false_negatives+treecompare.false_positives_and_negatives(tree1, tree2)[1]
                         result_file.write('R'+str(i)+str(treecompare.false_positives_and_negatives(tree1, tree2)))
                     except Exception as e:
@@ -43,7 +44,7 @@ for data in dataset:
                         print(e)
                         result_file.write('R'+str(i)+"(err,err)\n")
             ave_false_positive = agg_false_positives/effective_samples
-            ave_false_negative = agg_false_positives/effective_samples
+            ave_false_negative = agg_false_negatives/effective_samples
             result_file.write("total effective{}, averge false positive{},average false negative{}".format(effective_samples,ave_false_positive,ave_false_negative))   
             result_file.write('\n')
 
