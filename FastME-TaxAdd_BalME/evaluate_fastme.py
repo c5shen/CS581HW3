@@ -10,6 +10,9 @@ for data in dataset:
     result_file = open('result_{}_fastme_taxadd.txt'.format(data), 'w')
     for method in distance_methods:
             result_file.write(method + '\n')
+            effective_samples = 0
+            agg_false_positives = 0
+            agg_false_negatives = 0
             for i in range(20):
                     truth = '{}/{}/data/R{}/rose.tt'.format(data, data, i)
                 #     print(truth)
@@ -31,11 +34,17 @@ for data in dataset:
                         tree2.encode_bipartitions()
                         print("try")
                         print('R'+str(i),treecompare.false_positives_and_negatives(tree1, tree2))
+                        effective_samples = effective_samples+1
+                        agg_false_positives = agg_false_negatives+treecompare.false_positives_and_negatives(tree1, tree2)[0]
+                        agg_false_negatives = agg_false_negatives+treecompare.false_positives_and_negatives(tree1, tree2)[1]
                         result_file.write('R'+str(i)+str(treecompare.false_positives_and_negatives(tree1, tree2)))
                     except Exception as e:
                         print("exception")
                         print(e)
-                        result_file.write('R'+str(i)+"(err,err)\n")   
+                        result_file.write('R'+str(i)+"(err,err)\n")
+            ave_false_positive = agg_false_positives/effective_samples
+            ave_false_negative = agg_false_positives/effective_samples
+            result_file.write("total effective{}, averge false positive{},average false negative{}".format(effective_samples,ave_false_positive,ave_false_negative))   
             result_file.write('\n')
 
     result_file.close()
