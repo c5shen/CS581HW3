@@ -9,7 +9,7 @@ for target in targets:
         inname = target+'/'+target+'/data/R'+str(i)+'/rose.aln.true.phylip'
         init_tree = target+'/'+target+'/R'+str(i)+'/random.tree'
 
-        distance_methods = ['K2P']
+        distance_methods = ['K2P','p-distance','JC69']
         #distance_methods = ['LogDet']
 
         for method in distance_methods:
