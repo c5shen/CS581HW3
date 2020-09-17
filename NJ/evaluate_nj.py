@@ -9,14 +9,14 @@ dataset = ['1000M1', '1000M4']
 for data in dataset:
     result_file = open('result_{}_nj.txt'.format(data), 'w')
     for method in distance_methods:
-            result_file.write(method + '\n')
+            #result_file.write(method + '\n')
             for i in range(20):
                     truth = '../../{}/{}/R{}/rose.tt'.format(data, data, i)
                     predicted_tree_file = (data + '/' + method + '/R'+ str(i)
                             + '/out_tree.nwk')
                     if (not os.path.isfile(predicted_tree_file) or 
                             os.stat(predicted_tree_file).st_size == 0):
-                        result_file.write('R'+str(i)+'(-,-)')
+                        result_file.write(method+',R'+str(i)+',err,err\n')
                         continue
                     true_tree_file = (truth)
 
@@ -33,7 +33,7 @@ for data in dataset:
                     tree2.encode_bipartitions()
 
                     print('R'+str(i),treecompare.false_positives_and_negatives(tree1, tree2))
-                    result_file.write('R'+str(i)+str(treecompare.false_positives_and_negatives(tree1, tree2)))
-            result_file.write('\n')
+                    result_file.write(method+',R'+str(i)+','+','.join([str(x) for x in treecompare.false_positives_and_negatives(tree1, tree2)]))
+                    result_file.write('\n')
 
     result_file.close()
