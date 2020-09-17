@@ -1,20 +1,60 @@
-p-distance
-R0(164, 165)R1(err,err)
-R2(180, 184)R3(err,err)
-R4(220, 226)R5(157, 161)R6(173, 177)R7(178, 183)R8(183, 188)R9(176, 179)R10(169, 174)R11(187, 191)R12(202, 205)R13(174, 174)R14(163, 163)R15(173, 176)R16(224, 228)R17(159, 161)R18(164, 169)R19(207, 211)total effective18, averge false positive183.94444444444446,average false negative184.16666666666666
-JC69
-R0(192, 193)R1(err,err)
-R2(212, 216)R3(219, 223)R4(247, 253)R5(176, 180)R6(err,err)
-R7(217, 222)R8(213, 218)R9(197, 200)R10(201, 206)R11(223, 227)R12(237, 240)R13(223, 223)R14(188, 188)R15(err,err)
-R16(286, 290)R17(186, 188)R18(219, 224)R19(240, 244)total effective17, averge false positive219.47058823529412,average false negative219.7058823529412
-K2P
-R0(382, 383)R1(err,err)
-R2(err,err)
-R3(err,err)
-R4(547, 553)R5(372, 376)R6(428, 432)R7(385, 390)R8(err,err)
-R9(489, 492)R10(445, 450)R11(385, 389)R12(err,err)
-R13(455, 455)R14(425, 425)R15(err,err)
-R16(err,err)
-R17(err,err)
-R18(395, 400)R19(err,err)
-total effective11, averge false positive430.90909090909093,average false negative431.3636363636364
+p-distance,R0,164,165
+p-distance,R1,err,err
+p-distance,R2,180,184
+p-distance,R3,err,err
+p-distance,R4,220,226
+p-distance,R5,157,161
+p-distance,R6,173,177
+p-distance,R7,178,183
+p-distance,R8,183,188
+p-distance,R9,176,179
+p-distance,R10,169,174
+p-distance,R11,187,191
+p-distance,R12,202,205
+p-distance,R13,174,174
+p-distance,R14,163,163
+p-distance,R15,173,176
+p-distance,R16,224,228
+p-distance,R17,159,161
+p-distance,R18,164,169
+p-distance,R19,207,211
+JC69,R0,192,193
+JC69,R1,err,err
+JC69,R2,212,216
+JC69,R3,219,223
+JC69,R4,247,253
+JC69,R5,176,180
+JC69,R6,err,err
+JC69,R7,217,222
+JC69,R8,213,218
+JC69,R9,197,200
+JC69,R10,201,206
+JC69,R11,223,227
+JC69,R12,237,240
+JC69,R13,223,223
+JC69,R14,188,188
+JC69,R15,err,err
+JC69,R16,286,290
+JC69,R17,186,188
+JC69,R18,219,224
+JC69,R19,240,244
+K2P,R0,382,383
+K2P,R1,err,err
+K2P,R2,err,err
+K2P,R3,err,err
+K2P,R4,547,553
+K2P,R5,372,376
+K2P,R6,428,432
+K2P,R7,385,390
+K2P,R8,err,err
+K2P,R9,489,492
+K2P,R10,445,450
+K2P,R11,385,389
+K2P,R12,err,err
+K2P,R13,455,455
+K2P,R14,425,425
+K2P,R15,err,err
+K2P,R16,err,err
+K2P,R17,err,err
+K2P,R18,395,400
+K2P,R19,err,err
