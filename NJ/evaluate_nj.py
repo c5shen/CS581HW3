@@ -1,9 +1,9 @@
 from dendropy.datamodel.treemodel import Tree
 import dendropy
-import sys
+import sys, os
 from dendropy.calculate import treecompare
 tns = dendropy.TaxonNamespace()
-distance_methods = ['p-distance','JC69']
+distance_methods = ['p-distance','K2P','JC69']
 dataset = ['1000M1', '1000M4'] 
 
 for data in dataset:
@@ -14,6 +14,10 @@ for data in dataset:
                     truth = '../../{}/{}/R{}/rose.tt'.format(data, data, i)
                     predicted_tree_file = (data + '/' + method + '/R'+ str(i)
                             + '/out_tree.nwk')
+                    if (not os.path.isfile(predicted_tree_file) or 
+                            os.stat(predicted_tree_file).st_size == 0):
+                        result_file.write('R'+str(i)+'(-,-)')
+                        continue
                     true_tree_file = (truth)
 
                     tree1 = Tree.get_from_path(
