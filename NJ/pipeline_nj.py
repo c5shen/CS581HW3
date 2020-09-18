@@ -3,7 +3,7 @@ import subprocess
 import os, shutil
 import pexpect
 
-targets = ['1000M1', '1000M4']
+targets = ['1000M4']
 for target in targets:
     for i in range(20):
         inname = '../../'+target+'/'+target+'/R'+str(i)+'/rose.aln.true.phylip'
@@ -13,6 +13,8 @@ for target in targets:
         #distance_methods = ['LogDet']
 
         for method in distance_methods:
+            if not os.path.isdir(target+'/'+method):
+                os.mkdir(target+'/'+method)
             outname = target+'/'+method+'/R'+str(i)
             if not os.path.isdir(outname):
                 os.mkdir(outname)
